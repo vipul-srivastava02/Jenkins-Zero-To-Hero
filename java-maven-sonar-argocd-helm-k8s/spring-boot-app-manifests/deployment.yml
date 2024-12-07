@@ -19,5 +19,5 @@ spec:
         image: vipuls0210/my_first_repo:11
         ports:
         - containerPort: 8080
-        imagePullSecrets:
-        - name: my-dockerhub-secret
+      imagePullSecrets:
+      - name: my-dockerhub-secret
