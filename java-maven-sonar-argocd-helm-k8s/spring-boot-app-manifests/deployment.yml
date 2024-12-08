@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: vipuls0210/my_first_repo:11
+        image: vipuls0210/my_first_repo:replaceImageTag
         ports:
         - containerPort: 8080
       imagePullSecrets:
